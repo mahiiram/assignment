@@ -192,7 +192,7 @@ label{
     flex-direction: column;
     justify-content: center;
     padding-top: 15px;
-    color: #e0dede;
+    color: #bbb7b7;
     font-family: 'DM Sans', sans-serif;
 }
 .signin{
@@ -218,11 +218,11 @@ label{
 .horizontal-line {
     flex: 1;
     border: 0;
-    border-top: 1px solid #e0dede; 
+    border-top: 1px solid #bbb7b7; 
 }
 
 .line-text {
-    color: #e0dede;
+    color: #bbb7b7;
     font-size: 18px;
     margin: 0 10px 0 10px;
 }
@@ -240,10 +240,14 @@ label{
     margin: 15px 10px auto 50px;
 }
 .end-text{
+
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+}
+.end-text h5{
+    color: #bbb7b7;
 }
 .end-text span a{
     list-style: none;
