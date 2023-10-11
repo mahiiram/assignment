@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #2F1893; 
+    font-family: 'DM Sans', sans-serif;
+    overflow: hidden;
+}
+
+.header {   
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    margin: 20px 0 0 40px ;
+    padding: 30px;
+}
+
+#startup {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    padding: 0 0 0 150px;
+}
+
+#startup li {
+    list-style: none;
+}
+
+#startup li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#navbar {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding-right: 140px;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* #navbar li a:hover,
+#navbar li a:active {
+    color: #e906dd;
+} */
+
+/* #navbar li a:hover::after {
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+}
+ */
+/* button{
+    background: transparent;
+    border: none;
+} */
+
+button{
+    width: 75px;
+    height: 40px;
+    color: #fff;
+    background-color: #E93A7D;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* #navbar li a:hover{
+    width: 55px;
+    height: 50px;
+    background-color: lightcoral
+} */
+
+.content{
+    width: 972px;
+    top: 60px;
+    left: 213px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    margin-top: 10px;
+   
+}
+.left-content{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.left-content h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+.left-content p{
+    font-size: 17px;
+    color: #fff;
+    margin: 0;
+}
+.left-button{
+    width: 100px;
+    font-size: 15px;
+}
+.right-content{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    height: 500px;
+    width: 400px;
+    background-color: #fff;
+    flex-wrap: nowrap;
+    margin-left: 50px ;
+    border-radius: 3px;
+}
+
+.card .title{
+    font-size: 40px;
+    color: #2F1893;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.card input{
+	width: 300px;
+	height: 30px;
+	justify-content: center;
+    border-color: #e0dede;
+	display: flex;
+    color: #000000;
+	padding: 20px;
+    outline: none;
+	border-radius: 20px;
+    margin: 20px 10px auto 50px;
+    font-family: 'DM Sans', sans-serif;
+}
+label{
+    color: #000000;
+}
+.checkbox{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 0 0 10px;
+    gap: 0;
+    
+}
+.checkbox input{
+    width: 4%;
+    height: 4%;
+}
+.checkbox label{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15px;
+    color: #e0dede;
+    font-family: 'DM Sans', sans-serif;
+}
+.signin{
+    width: 300px;
+	height: 40px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #482BE7;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 20px 10px auto 50px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    margin-top: 5px;
+}
+
+.horizontal-line {
+    flex: 1;
+    border: 0;
+    border-top: 1px solid #e0dede; 
+}
+
+.line-text {
+    color: #e0dede;
+    font-size: 18px;
+    margin: 0 10px 0 10px;
+}
+
+.Login-button{
+    width: 300px;
+	height: 40px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #1DA1F2;
+    border: none;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 20px;
+    margin: 15px 10px auto 50px;
+}
+.end-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.end-text span a{
+    list-style: none;
+    text-decoration: none;
+}
